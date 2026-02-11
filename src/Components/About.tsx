@@ -7,10 +7,10 @@ const About = () => {
                     <h2 className="text-8xl">Lucas Kenji.</h2>
                     <p className="text-2xl">Sou um desenvolvedor Full-stack apaixonado por Front-end. Formado em Análise e Desenvolvimento de Sistemas na FIAP, busco a primeira oportunidade de emprego na área de tecnologia.</p>
                     <div className="flex py-8 gap-3">
-                        <a>Sobre</a>
-                        <a>Skills</a>
-                        <a>Projetos</a>
-                        <a>Contato</a>
+                        <a className="text-orange-300 hover:text-orange-100 cursor-pointer">Sobre</a>
+                        <a className="text-orange-300 hover:text-orange-100 cursor-pointer">Skills</a>
+                        <a className="text-orange-300 hover:text-orange-100 cursor-pointer">Projetos</a>
+                        <a className="text-orange-300 hover:text-orange-100 cursor-pointer">Contato</a>
                     </div>
                 </div>
             </section>

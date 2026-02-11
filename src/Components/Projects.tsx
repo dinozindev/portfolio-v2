@@ -1,4 +1,6 @@
+import ProjectWidget from "./ProjectWidget"
 import SectionHeader from "./SectionHeader"
+import valskins from "../assets/valskins-screenshot.png"
 
 const Projects = () => {
   return (
@@ -7,9 +9,7 @@ const Projects = () => {
                 <div className="flex flex-col w-2/4 gap-4">
                     <SectionHeader number="03" text="Projetos" />
                     <div className="flex justify-between">
-                        <p className="w-5/8 text-md">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quaerat cum voluptatum at temporibus quam, inventore suscipit tempore magni officia. Sapiente consequuntur aliquid iusto ex sit id soluta blanditiis reprehenderit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quaerat cum voluptatum at temporibus quam, inventore suscipit tempore magni officia. Sapiente consequuntur aliquid iusto ex sit id soluta blanditiis reprehenderit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quaerat cum voluptatum at temporibus quam, inventore suscipit tempore magni officia. Sapiente consequuntur aliquid iusto ex sit id soluta blanditiis reprehenderit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quaerat cum voluptatum at temporibus quam, inventore suscipit tempore magni officia. Sapiente consequuntur aliquid iusto ex sit id soluta blanditiis reprehenderit!
-                            </p>
+                        <ProjectWidget image={valskins} title="ValSkins v1" description="Aplicação Web consumindo Valorant-API para visualização de Skins, Bundles, Buddies, Player Cards, Player Titles e Sprays do jogo Valorant."  linkGithub="#" linkWebsite="#" />
                     </div>
                 </div>
             </section>

@@ -9,15 +9,15 @@ import Skills from "./Components/Skills"
 const App = () => {
   return (
     <>
-      <Header />
       <main>
+        <Header />
         <About />
         <Details />
         <Skills />
         <Projects />
         <Contact />
+        <Footer />
       </main>
-      <Footer />
     </>
   )
 }
