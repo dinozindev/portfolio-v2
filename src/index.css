@@ -2,6 +2,24 @@
 
 body {
     font-family: 'Stack Sans Headline', sans-serif;
-    background-color: #0d1b2a;
     color: #fff;
+}
+
+.animated-bg {
+  background: linear-gradient(
+    135deg,
+    #0d1b2a,
+    #16283d,
+    #1e3a5f,
+    #16283d,
+    #0d1b2a
+  );
+  background-size: 300% 300%;
+  animation: gradient 55s ease infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 10%; }
+  50% { background-position: 100% 90%; }
+  100% { background-position: 0% 10%; }
 }

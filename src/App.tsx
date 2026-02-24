@@ -7,18 +7,17 @@ import Projects from "./Components/Projects"
 import Skills from "./Components/Skills"
 
 const App = () => {
+
   return (
-    <>
-      <main>
-        <Header />
-        <About />
-        <Details />
-        <Skills />
-        <Projects />
-        <Contact />
-        <Footer />
-      </main>
-    </>
+    <main className="min-h-screen animated-bg">
+      <Header />
+      <About />
+      <Details />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
+    </main>
   )
 }
 

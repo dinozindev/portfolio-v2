@@ -15,8 +15,8 @@ const ProjectWidget = ({ image, title, description, linkGithub, linkWebsite } : 
         <h3 className="text-3xl">{title}</h3>
         <p>{description}</p>
         <div className="flex gap-4">
-          <a href={linkGithub}><i className="fa-brands fa-github"></i></a>
-          <a href={linkWebsite}><i className="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+          <a href={linkGithub} target="_blank"><i className="fa-brands fa-github"></i></a>
+          <a href={linkWebsite} target="_blank"><i className="fa-solid fa-arrow-up-right-from-square"></i></a></div>
       </div>
     </div>
   )
