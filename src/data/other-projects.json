@@ -1,0 +1,9 @@
+[
+  {
+    "title": "ValSkins",
+    "description": "Aplicação Web consumindo Valorant-API para visualização de Skins, Bundles, Buddies, Player Cards, Player Titles e Sprays do jogo Valorant.",
+    "skills": ["TypeScript", "React", "styled-components"],
+    "linkGithub": "https://github.com/dinozindev/val-skins",
+    "linkWebsite": "https://val-skins.vercel.app/"
+  }
+]
