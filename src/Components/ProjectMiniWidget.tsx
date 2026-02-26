@@ -10,13 +10,15 @@ type MiniWidgetProps = {
 
 const ProjectMiniWidget = ({ title, description, skills, linkGithub, linkWebsite, linkYoutube }: MiniWidgetProps) => {
     return (
-        <div>
-            <h2>{title}</h2>
-            <p>{description}</p>
+        <div className="bg-blue-950 w-1/4 px-6 py-9 flex flex-col justify-between">
+            <h3 className="text-3xl mb-3">{title}</h3>
+            <p className="mb-3">{description}</p>
+            <div className="flex flex-wrap gap-3">
             {skills.map((skill, i) => (
-                <p key={i}>{skill}</p>
+                <p className="bg-orange-300 text-black px-1.5 rounded-sm text-sm" key={i}>{skill}</p>
             ))}
-            <div className="flex gap-2">
+            </div>
+            <div className="flex gap-2 justify-end">
                 {linkGithub && (
                     <a href={linkGithub} target="_blank">
                         <i className="fa-brands fa-github hover:text-orange-300"></i>

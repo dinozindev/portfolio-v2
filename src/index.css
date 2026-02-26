@@ -5,25 +5,6 @@ body {
     color: #fff;
 }
 
-/* .animated-bg {
-  background: linear-gradient(
-    135deg,
-    #0d1b2a,
-    #1b263b,
-    #243b55,
-    #1b263b,
-    #0d1b2a
-  );
-  background-size: 300% 300%;
-  animation: gradientSoft 20s ease-in-out infinite;
-}
-
-@keyframes gradientSoft {
-  0% { background-position: 0% 20%; }
-  50% { background-position: 100% 80%; }
-  100% { background-position: 0% 20%; }
-} */
-
 .animated-bg {
   background:
     radial-gradient(circle at 20% 30%, #243b55, transparent 50%),

@@ -27,5 +27,12 @@
     "title": "Swift Safety",
     "description": "Aplicação Mobile que permite aos usuários compartilharem relatos de desastres urbanos, visualizarem informações em tempo real através de sensores e órgãos públicos, garantindo rastreabilidade, controle e visibilidade contínua dos eventos naturais que impactam a cidade.",
     "skills": ["Java", ".NET", "TypeScript", "React Native", "Docker", "Azure", "Oracle", "Arduino"]
+  },
+  {
+    "title": "Music Player",
+    "description": "Aplicação Web de um player de música, com linha do tempo, botões de mute, replay e skip, playlist, dark mode e responsividade.",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "linkGithub": "https://github.com/dinozindev/musicplayer",
+    "linkWebsite": "https://musicplayer-drab.vercel.app/"
   }
 ]
