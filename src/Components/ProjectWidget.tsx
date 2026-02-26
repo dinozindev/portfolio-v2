@@ -5,6 +5,7 @@ type WidgetProps = {
   skills: string[];
   linkGithub: string;
   linkWebsite?: string;
+  linkYoutube?: string;
   index: number;
 };
 
@@ -15,6 +16,7 @@ const ProjectWidget = ({
   skills,
   linkGithub,
   linkWebsite,
+  linkYoutube,
   index,
 }: WidgetProps) => {
   const isReversed = index % 2 !== 0;
@@ -41,6 +43,12 @@ const ProjectWidget = ({
               <i className="fa-solid fa-arrow-up-right-from-square hover:text-orange-300"></i>
             </a>
           )}
+          {linkYoutube && (
+            <a href={linkYoutube} target="_blank">
+              <i className="fa-brands fa-youtube hover:text-orange-300"></i>
+            </a>
+          )
+          }
         </div>
       </div>
     </div>

@@ -1,9 +1,31 @@
 [
   {
-    "title": "ValSkins",
-    "description": "Aplicação Web consumindo Valorant-API para visualização de Skins, Bundles, Buddies, Player Cards, Player Titles e Sprays do jogo Valorant.",
-    "skills": ["TypeScript", "React", "styled-components"],
-    "linkGithub": "https://github.com/dinozindev/val-skins",
-    "linkWebsite": "https://val-skins.vercel.app/"
+    "title": "PortoAutoTech",
+    "description": "Projeto desenvolvido em parceria com a Porto Seguro para auxiliar clientes com pouco ou nenhum conhecimento sobre problemas relacionados a carros através de uma interface Web com Chatbot e serviços.",
+    "skills": ["TypeScript", "Next.js", "Python", "Java", "Machine Learning", "Oracle"],
+    "linkGithub": "https://github.com/dinozindev/fiap-portoautotech"
+  },
+  {
+    "title": "PetShow",
+    "description": "Aplicação Web de Pet Shop onde é possível visualizar os serviços, cadastrar, logar e realizar um agendamento para o seu pet.",
+    "skills": ["TypeScript", "Next.js"],
+    "linkGithub": "https://github.com/dinozindev/petshow",
+    "linkWebsite": "https://petshow-theta.vercel.app/"
+  },
+  {
+    "title": "Ecocean",
+    "description": "Projeto desenvolvido em parceria com a Softtek e a Select Soluções para resolver a degradação dos oceanos, a extinção de espécies e o monitoramento de ilhas de lixo através de um software multiplataforma.",
+    "skills": ["Java", "Python", "Google Vision API", "Oracle", "Javascript", "HTML", "CSS", "Machine Learning"],
+    "linkGithub": "https://github.com/dinozindev/gs-ecocean"
+  },
+  {
+    "title": "Synapse",
+    "description": "Aplicação Mobile desenvolvida com o objetivo de auxiliar pessoas em transição de carreira ou novos no mercado de trabalho a ampliarem seu conhecimento na área que deseja seguir ou encontrar oportunidades de emprego com base no seu perfil profissional.",
+    "skills": ["Java", ".NET", "TypeScript", "React Native", "Docker", "Azure", "Oracle", "MongoDB", "Ollama"]
+  },
+  {
+    "title": "Swift Safety",
+    "description": "Aplicação Mobile que permite aos usuários compartilharem relatos de desastres urbanos, visualizarem informações em tempo real através de sensores e órgãos públicos, garantindo rastreabilidade, controle e visibilidade contínua dos eventos naturais que impactam a cidade.",
+    "skills": ["Java", ".NET", "TypeScript", "React Native", "Docker", "Azure", "Oracle", "Arduino"]
   }
 ]

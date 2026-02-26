@@ -1,6 +1,8 @@
 import projects from "../data/main-projects.json";
+import otherProjects from "../data/other-projects.json";
 import SectionHeader from "./SectionHeader";
 import ProjectWidget from "./ProjectWidget";
+import ProjectMiniWidget from "./ProjectMiniWidget";
 
 const Projects = () => {
   return (
@@ -24,6 +26,13 @@ const Projects = () => {
           ))}
 
           <SectionHeader number="03.1" text="Outros Projetos" />
+          {otherProjects.map((project, index) => (
+            <ProjectMiniWidget
+              key={project.title}
+              {...project}
+              index={index}
+              />
+          ))}
         </div>
       </section>
     </>
