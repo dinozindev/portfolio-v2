@@ -21,12 +21,14 @@
   {
     "title": "Synapse",
     "description": "Aplicação Mobile desenvolvida com o objetivo de auxiliar pessoas em transição de carreira ou novos no mercado de trabalho a ampliarem seu conhecimento na área que deseja seguir ou encontrar oportunidades de emprego com base no seu perfil profissional.",
-    "skills": ["Java", ".NET", "TypeScript", "React Native", "Docker", "Azure", "Oracle", "MongoDB", "Ollama"]
+    "skills": ["Java", ".NET", "TypeScript", "React Native", "Docker", "Azure", "Oracle", "MongoDB", "Ollama"],
+    "linkYoutube": "https://youtu.be/JwJNlQEr-cQ"
   },
   {
     "title": "Swift Safety",
     "description": "Aplicação Mobile que permite aos usuários compartilharem relatos de desastres urbanos, visualizarem informações em tempo real através de sensores e órgãos públicos, garantindo rastreabilidade, controle e visibilidade contínua dos eventos naturais que impactam a cidade.",
-    "skills": ["Java", ".NET", "TypeScript", "React Native", "Docker", "Azure", "Oracle", "Arduino"]
+    "skills": ["Java", ".NET", "TypeScript", "React Native", "Docker", "Azure", "Oracle", "Arduino"],
+    "linkYoutube": "https://www.youtube.com/watch?v=byoqks2usaM"
   },
   {
     "title": "Music Player",

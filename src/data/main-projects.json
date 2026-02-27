@@ -22,5 +22,13 @@
     "skills": ["TypeScript", "React Native", "Java", ".NET", "Docker", "Azure", "MongoDB", "Oracle", "Arduino"],
     "linkGithub": "https://github.com/dinozindev/challenge-mottu-mottion",
     "linkYoutube": "https://youtu.be/I6KXXwZDc_Y"
+  },
+  {
+    "image": "smartenergy.png",
+    "title": "Smart Energy",
+    "description": "Projeto desenvolvido em parceria com a SAP, FIA, Mahindra Racing, Ultragaz e Ultracargo com o objetivo de reduzir o impacto ambiental e promover um consumo energético mais eficiente e sustentável. A plataforma oferece um conjunto robusto de recursos, como monitoramento em tempo real da economia de energia e previsão de gastos a partir de IA.",
+    "skills": ["TypeScript", "Next.js", "Java", "Python", "Machine Learning", "Oracle"],
+    "linkGithub": "https://github.com/dinozindev/gs-smartenergy",
+    "linkYoutube": "https://www.youtube.com/watch?v=_ThvPaoRCRA"
   }
 ]

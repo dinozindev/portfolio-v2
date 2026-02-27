@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@theme {
+  --color-miniwidget: #112240;
+}
+
+
 body {
     font-family: 'Stack Sans Headline', sans-serif;
     color: #fff;
