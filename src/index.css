@@ -4,6 +4,9 @@
   --color-miniwidget: #112240;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Stack Sans Headline', sans-serif;

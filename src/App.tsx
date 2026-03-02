@@ -9,13 +9,21 @@ import Skills from "./Components/Skills"
 const App = () => {
 
   return (
-    <main className="min-h-screen animated-bg">
+    <main className="min-h-screen animated-bg">  
       <Header />
       <About />
+      <section id="details">
       <Details />
+      </section>
+      <section id="skills">
       <Skills />
+      </section>
+      <section id="projects">
       <Projects />
+      </section>
+      <section id="contact">
       <Contact />
+      </section>
       <Footer />
     </main>
   )
