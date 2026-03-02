@@ -17,7 +17,7 @@
   },
   {
     "image": "mottumottion.png",
-    "title": "Mottu Mottion",
+    "title": "Mottu Motion",
     "description": "Projeto desenvolvido em parceria com a empresa Mottu com o objetivo de facilitar o gerenciamento dos pátios de moto através de uma aplicação que forneça a atualização e localização em tempo real da ocupação de motocicletas, além do histórico de movimentações de uma moto dentro da filial.",
     "skills": ["TypeScript", "React Native", "Java", ".NET", "Docker", "Azure", "MongoDB", "Oracle", "Arduino"],
     "linkGithub": "https://github.com/dinozindev/challenge-mottu-mottion",

@@ -21,17 +21,17 @@ const ProjectMiniWidget = ({ title, description, skills, linkGithub, linkWebsite
             <div className="flex gap-2 justify-end">
                 {linkGithub && (
                     <a href={linkGithub} target="_blank">
-                        <i className="fa-brands fa-github hover:text-orange-300"></i>
+                        <i className="fa-brands fa-github hover:text-orange-300 transition-all"></i>
                     </a>
                 )}
                 {linkWebsite && (
                     <a href={linkWebsite} target="_blank">
-                        <i className="fa-solid fa-arrow-up-right-from-square hover:text-orange-300"></i>
+                        <i className="fa-solid fa-arrow-up-right-from-square hover:text-orange-300 transition-all"></i>
                     </a>
                 )}
                 {linkYoutube && (
                     <a href={linkYoutube} target="_blank">
-                        <i className="fa-brands fa-youtube hover:text-orange-300"></i>
+                        <i className="fa-brands fa-youtube hover:text-orange-300 transition-all"></i>
                     </a>
                 )
                 }
