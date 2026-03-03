@@ -7,7 +7,7 @@ const Details = () => {
                 <div className="flex flex-col w-2/4 gap-4">
                     <SectionHeader number="01" text="Sobre" />
                     <div className="flex justify-between">
-                        <div className="text-xl">
+                        <div className="text-md md:text-xl">
                             <p>
                                 Desenvolvedor Full-Stack com foco em desenvolvimento de <span className="text-orange-300">aplicações web modernas, APIs robustas e integração com serviços em nuvem.</span>
                             </p>

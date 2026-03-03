@@ -10,7 +10,7 @@ type MiniWidgetProps = {
 
 const ProjectMiniWidget = ({ title, description, skills, linkGithub, linkWebsite, linkYoutube }: MiniWidgetProps) => {
     return (
-        <div className="bg-miniwidget w-1/4 px-6 py-9 flex flex-col justify-between shadow-2xl hover:translate-z-2.5 hover:-translate-y-2.5 transition-all">
+        <div className="bg-miniwidget md:w-1/4 px-6 py-9 flex flex-col justify-between shadow-2xl hover:translate-z-2.5 hover:-translate-y-2.5 transition-all">
             <h3 className="text-3xl mb-3">{title}</h3>
             <p className="mb-3">{description}</p>
             <div className="flex flex-wrap gap-3 mb-3">
