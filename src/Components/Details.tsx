@@ -4,7 +4,7 @@ const Details = () => {
     return (
         <>
             <section className="flex items-center justify-evenly pb-40">
-                <div className="flex flex-col w-2/4 gap-4">
+                <div className="flex flex-col w-4/5 lg:w-2/4 gap-4">
                     <SectionHeader number="01" text="Sobre" />
                     <div className="flex justify-between">
                         <div className="text-md md:text-xl">

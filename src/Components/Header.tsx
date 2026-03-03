@@ -10,7 +10,7 @@ const Header = () => {
     }
 
     return (
-        <header className="bg-miniwidget md:bg-transparent flex flex-row justify-between items-center px-12 py-10 fixed w-full z-50">
+        <header className="bg-miniwidget md:bg-transparent flex flex-row justify-between items-center px-12 py-8 md:py-10 fixed w-full z-50">
             <h1 className="text-3xl text-orange-300">dinozindev</h1>
             <div className="md:hidden">
                 <i

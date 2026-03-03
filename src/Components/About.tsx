@@ -2,7 +2,7 @@ const About = () => {
     return (
         <>
             <section className="flex items-center justify-evenly h-screen">
-                <div className="flex flex-col w-2/4 gap-2">
+                <div className="flex flex-col w-3/4 lg:w-2/4 gap-2">
                     <p className="text-xl text-orange-300">Olá, meu nome é</p>
                     <h2 className="text-6xl md:text-8xl">Lucas Kenji.</h2>
                     <p className="text-xl md:text-2xl">Sou um desenvolvedor Full-stack apaixonado por Front-end. Formado em Análise e Desenvolvimento de Sistemas na FIAP, busco a primeira oportunidade de emprego na área de tecnologia.</p>

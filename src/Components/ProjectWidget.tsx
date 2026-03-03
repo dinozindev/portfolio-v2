@@ -22,12 +22,12 @@ const ProjectWidget = ({
   const isReversed = index % 2 !== 0;
 
   return (
-    <div className={`flex items-center gap-10 ${isReversed ? "flex-row-reverse" : ""}`}>
-      <img className="w-7/12 border-orange-300 border shadow-xl sepia saturate-[150%] hue-rotate-[10deg] transition duration-300 hover:sepia-0 hover:hue-rotate-0 cursor-pointer" src={image} alt={title}/>
-      <div className={`flex flex-col gap-3 ${isReversed ? "items-start text-left" : "items-end text-right"}`}>
+    <div className={`flex flex-col md:flex-row items-center gap-10 ${isReversed ? "md:flex-row-reverse" : ""}`}>
+      <img className="w-full md:w-7/12 border-orange-300 border shadow-xl sepia saturate-[150%] hue-rotate-[10deg] transition duration-300 hover:sepia-0 hover:hue-rotate-0 cursor-pointer" src={image} alt={title}/>
+      <div className={`flex flex-col gap-3 ${isReversed ? "md:items-start md:text-left" : "md:items-end md:text-right"}`}>
         <h3 className="text-3xl">{title}</h3>
         <p>{description}</p>
-        <div className="flex gap-3 flex-wrap justify-end">
+        <div className="flex gap-3 flex-wrap md:justify-end">
           {skills.map((skill, i) => (
             <p key={i} className="bg-orange-300 text-black px-1.5 rounded-sm">
               {skill}

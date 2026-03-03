@@ -5,7 +5,7 @@ const Skills = () => {
     return (
         <>
             <section className="flex items-center justify-evenly pb-40">
-                <div className="flex flex-col w-2/4 gap-4">
+                <div className="flex flex-col w-4/5 lg:w-2/4 gap-4">
                     <SectionHeader number="02" text="Skills" />
                     <div className="flex flex-wrap justify-center gap-4 text-3xl md:text-6xl text-orange-200 md:pt-20">
                         <SkillCard title="C"><i className="devicon-c-original"></i></SkillCard>
