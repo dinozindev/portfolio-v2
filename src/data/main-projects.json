@@ -15,6 +15,14 @@
     "linkGithub": "https://github.com/dinozindev/cs2-skins",
     "linkWebsite": "https://cs2-skins-gamma.vercel.app/"
   },
+    {
+    "image": "pokollection.png",
+    "title": "Pokollection",
+    "description": "Plataforma Web de Pokémon TCG para buscar, colecionar, favoritar e organizar em binders suas cartas da vida real.",
+    "skills": ["TypeScript", "React", "Tailwind CSS", "Firebase"],
+    "linkGithub": "https://github.com/dinozindev/pokollection",
+    "linkWebsite": "https://pokollection.vercel.app/"
+  },
   {
     "image": "mottumottion.png",
     "title": "Mottu Motion",
