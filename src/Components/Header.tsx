@@ -1,5 +1,5 @@
 import { useState } from "react"
-import curriculo from "../Curriculo.pdf"
+import curriculo from "../../Curriculo.pdf"
 
 const Header = () => {
 
