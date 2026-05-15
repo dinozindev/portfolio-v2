@@ -23,7 +23,7 @@ const ProjectWidget = ({
 
   return (
     <div className={`flex flex-col md:flex-row items-center gap-10 ${isReversed ? "md:flex-row-reverse" : ""}`}>
-      <img className="w-full md:w-7/12 border-orange-300 border shadow-xl sepia saturate-[150%] hue-rotate-[10deg] transition duration-300 hover:sepia-0 hover:hue-rotate-0 cursor-pointer" src={image} alt={title}/>
+      <img className="w-full md:w-7/12 border-orange-300 border shadow-xl sepia saturate-150 hue-rotate-10 transition duration-300 hover:sepia-0 hover:hue-rotate-0 cursor-pointer" src={image} alt={title}/>
       <div className={`flex flex-col gap-3 ${isReversed ? "md:items-start md:text-left" : "md:items-end md:text-right"}`}>
         <h3 className="text-3xl">{title}</h3>
         <p>{description}</p>
