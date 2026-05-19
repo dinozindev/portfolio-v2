@@ -33,3 +33,23 @@ body {
     background-position: 40% 50%, 60% 40%, 0% 0%;
   }
 }
+
+/* 👇 IMPORTANTE: layers continuam funcionando */
+@layer components {
+  .heading-text {
+    @apply text-white p-4;
+  }
+
+  .underline-effect {
+    @apply relative p-0 text-white;
+  }
+
+  .underline-effect::after {
+    content: '';
+    @apply absolute w-full h-0.5 left-0 -bottom-0.5 bg-orange-300 origin-bottom-right scale-x-0 transition-transform duration-300;
+  }
+
+  .underline-effect:hover::after {
+    @apply origin-bottom-left scale-x-100;
+  }
+}

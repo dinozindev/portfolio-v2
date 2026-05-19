@@ -27,11 +27,11 @@ const Projects = () => {
         </div>
         <div className="flex flex-col gap-4 w-4/5 lg:w-3/4">
           <header className="mb-16 flex flex-col items-center gap-4">
-          <h3 className="text-4xl">Outros Projetos</h3>
-          <a className="text-orange-300 hover:text-white" href="https://github.com/dinozindev?tab=repositories" target="_blank">Visualize outros repositórios no GitHub</a>
+            <h3 className="text-4xl">Outros Projetos</h3>
+            <a className="text-orange-300 hover:text-white" href="https://github.com/dinozindev?tab=repositories" target="_blank">Visualize outros repositórios no GitHub</a>
           </header>
-          <div className="flex flex-wrap gap-4 justify-center">
-            {otherProjects.map((project, index) => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
+            {otherProjects.slice(0, 6).map((project, index) => (
               <ProjectMiniWidget
                 key={project.title}
                 {...project}
